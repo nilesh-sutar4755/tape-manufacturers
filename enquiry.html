@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <!--::header part start::-->
+     <!--::header part start::-->
     <header class="main_menu">
       <div class="sub_menu">
         <div class="container">
@@ -73,19 +73,19 @@
                   id="navbarSupportedContent"
                 >
                   <ul class="navbar-nav">
-                    <li class="nav-item ">
+                    <li class="nav-item">
                       <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                       <a class="nav-link" href="about.html">About Us</a>
                     </li>
-                     <li class="nav-item">
+                    <li class="nav-item">
                       <a class="nav-link" href="products.html">Products</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="contact.html">Contact Us</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                       <a class="nav-link" href="enquiry.html">Enquiry</a>
                     </li>
                   </ul>
@@ -108,8 +108,8 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item">
-                            <h2>about us</h2>
-                            <p> <a href="index.html">Home</a> <span>-</span>about us</p>
+                            <h2>Enquiry</h2>
+                            <p> <a href="index.html">Home</a> <span>-</span>Enquiry</p>
                         </div>
                     </div>
                 </div>
@@ -118,91 +118,57 @@
     </section>
     <!-- breadcrumb start-->
 
-    <!-- about part start-->
-    <section class="about_part section_bg section_padding">
+    <!-- ================ contact section start ================= -->
+    <section class="contact-section">
         <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md-6 col-lg-6">
-                    <div class="about_img">
-                        <img src="img/about_img_1.png" alt="">
-                    </div>
-                </div>
-                <div class="col-md-5 col-lg-5">
-                    <div class="about_text">
-                        <h2>We Are Committed <br>
-                            To Customer Satisfaction</h2>
-                        <h4>Their be void upon image lights you fifth seed wherein for very mud
-                            the winged his days fruitful. Stars fruit fourth.</h4>
-                        <p>Fifth darkness lights after sixth first Firmament morning and the Green saying greatn
-                            forth behold open said First she'd saying have any question availbla now their void
-                            upon image lights. You fifth seed for very the</p>
-                        <a href="#" class="btn_2">read more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- about part start-->
 
-    <!-- about part start-->
-    <section class="about_part section_bg section_padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mb-5 mb-lg-0">
-            <div class="blog_left_sidebar">
-              <article class="blog_item">
-                <div class="blog_details">
-                  <a class="d-inline-block" href="single-blog.html">
-                    <h2>Welcome to Samarth Enterprises</h2>
-                  </a>
-                  <p>
-                    Incepted in the year 2001, Akar Shrink Packs has achieved a
-                    niche for itself in this highly competitive industry. We
-                    have, with sheer dedication and honest approach towards our
-                    business, achieved immense success in our domain. Our
-                    company is engaged as a Manufacturer, Supplier of PVC Heat
-                    Shrink Sleeves. Our product has wide application in the
-                    pharmaceutical, cosmetics, herbal, drinking water,
-                    pesticides industries, Biotechnology food & agro sector,
-                    chemical industry, and many other industries and sectors. We
-                    have an excellent in-house manufacturing facility, which
-                    aids in the production of quality products. Photo Gallery
-                    Products Info It is always a conscious effort on our part to
-                    offer the goods at competitive prices and deliver them to
-                    their respective destinations in time.
-                    <a href="javascript:void(0)" class="text-warning"
-                      >Read more..</a
-                    >
-                  </p>
-                </div>
-              </article>
 
-              <article class="blog_item">
-                <div class="blog_details">
-                  <a class="d-inline-block" href="single-blog.html">
-                    <h2>Our Quality</h2>
-                  </a>
-                  <p>
-                    Total Quality Management techniques are stringently adhered
-                    to at all levels, right from the purchase of raw materials
-                    till the dispatch of the final products. Strict inspections
-                    and testing schedules ensure flawless production at every
-                    stage. All processes are carried out under the vigilance of
-                    trained professionals in accordance with standardized
-                    production norms and methods, thus leaving no stone unturned
-                    in ensuring premium quality. Committed towards total
-                    consumer satisfaction, we dispatch our products after our
-                    experts' inspection and approval.
-                    <a href="javascript:void(0)" class="text-warning"
-                      >Read more..</a
-                    >
-                  </p>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="contact-title">Get in Touch</h2>
                 </div>
-              </article>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="blog_right_sidebar" id="stickySidebar">
+                <div class="col-lg-8">
+                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
+                        novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+
+                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"
+                                        placeholder='Enter Message'></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control" name="name" id="name" type="text"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
+                                        placeholder='Enter your name'>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control" name="email" id="email" type="email"
+                                        onfocus="this.placeholder = ''"
+                                        onblur="this.placeholder = 'Enter email address'"
+                                        placeholder='Enter email address'>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input class="form-control" name="subject" id="subject" type="text"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'"
+                                        placeholder='Enter Subject'>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <button type="submit" class="button button-contactForm btn_2">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                     <div class="blog_right_sidebar" id="stickySidebar">
               <!-- <aside class="single_sidebar_widget search_widget">
                             <form action="#">
                                 <div class="form-group">
@@ -294,90 +260,32 @@
                 </form>
               </aside>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- about part start-->
-
-    <!--::industries start::-->
-    <section class="our_Professional single_page_Professional section_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-4">
-                    <div class="section_tittle">
-                        <h2>Meet Experienced
-                            Professional</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single_industries">
-                        <img src="img/Professional/our_professional_1.png" alt="">
-                        <div class="single_industries_text">
-                            <h3>Andrew Flentop</h3>
-                            <p>System Engineer</p>
-                            <div class="social_icon">
-                                <a href="#"><i class="flaticon-facebook"></i></a>
-                                <a href="#"><i class="flaticon-twitter"></i></a>
-                                <a href="#"><i class="flaticon-skype"></i></a>
-                                <a href="#"><i class="flaticon-instagram"></i></a>
-                            </div>
+                    <!-- <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-home"></i></span>
+                        <div class="media-body">
+                            <h3>Buttonwood, California.</h3>
+                            <p>Rosemead, CA 91770</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single_industries">
-                        <img src="img/Professional/our_professional_2.png" alt="">
-                        <div class="single_industries_text">
-                            <h3>Andrew Flentop</h3>
-                            <p>System Engineer</p>
-                            <div class="social_icon">
-                                <a href="#"><i class="flaticon-facebook"></i></a>
-                                <a href="#"><i class="flaticon-twitter"></i></a>
-                                <a href="#"><i class="flaticon-skype"></i></a>
-                                <a href="#"><i class="flaticon-instagram"></i></a>
-                            </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                        <div class="media-body">
+                            <h3>00 (440) 9865 562</h3>
+                            <p>Mon to Fri 9am to 6pm</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single_industries">
-                        <img src="img/Professional/our_professional_3.png" alt="">
-                        <div class="single_industries_text">
-                            <h3>Andrew Flentop</h3>
-                            <p>System Engineer</p>
-                            <div class="social_icon">
-                                <a href="#"><i class="flaticon-facebook"></i></a>
-                                <a href="#"><i class="flaticon-twitter"></i></a>
-                                <a href="#"><i class="flaticon-skype"></i></a>
-                                <a href="#"><i class="flaticon-instagram"></i></a>
-                            </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="ti-email"></i></span>
+                        <div class="media-body">
+                            <h3>support@colorlib.com</h3>
+                            <p>Send us your query anytime!</p>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single_industries">
-                        <img src="img/Professional/our_professional_4.png" alt="">
-                        <div class="single_industries_text">
-                            <h3>Andrew Flentop</h3>
-                            <p>System Engineer</p>
-                            <div class="social_icon">
-                                <a href="#"><i class="flaticon-facebook"></i></a>
-                                <a href="#"><i class="flaticon-twitter"></i></a>
-                                <a href="#"><i class="flaticon-skype"></i></a>
-                                <a href="#"><i class="flaticon-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </section>
-    <!--::industries end::-->
-
-    
+    <!-- ================ contact section end ================= -->
 
     <!--::subscribe area start::-->
     <section class="subscribe_area">
@@ -417,7 +325,7 @@
     </section>
     <!--::subscribe area end::-->
 
-    <!-- footer part start-->
+     <!-- footer part start-->
     <footer class="footer-area">
       <div class="container">
         <div class="row justify-content-between">

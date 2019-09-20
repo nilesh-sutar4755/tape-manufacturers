@@ -2,8 +2,20 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,400i,500,600,700,800|Roboto");
 /* line 8, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_extends.scss */
 .btn_4 {
-  background-image: -webkit-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
-  background-image: -o-linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
+  background-image: -webkit-linear-gradient(
+    131deg,
+    #feb47b,
+    #ff7e5f,
+    #ff7e5f,
+    #ff7e5f
+  );
+  background-image: -o-linear-gradient(
+    131deg,
+    #feb47b,
+    #ff7e5f,
+    #ff7e5f,
+    #ff7e5f
+  );
   background-image: linear-gradient(131deg, #feb47b, #ff7e5f, #ff7e5f, #ff7e5f);
 }
 
@@ -24,7 +36,8 @@ body {
 }
 
 /* line 12, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
-input:hover, input:focus {
+input:hover,
+input:focus {
   outline: none !important;
 }
 
@@ -35,7 +48,7 @@ input:hover, input:focus {
 
 /* line 18, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
 .section_padding {
-  padding: 130px 0px;
+  padding: 70px 0px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -148,7 +161,12 @@ a:hover {
 }
 
 /* line 74, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #191d34;
   font-family: "Barlow Condensed", sans-serif;
 }
@@ -213,7 +231,10 @@ img {
 }
 
 /* line 122, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
-a:focus, .button:focus, button:focus, .btn:focus {
+a:focus,
+.button:focus,
+button:focus,
+.btn:focus {
   text-decoration: none;
   outline: none;
   box-shadow: none;
@@ -257,7 +278,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
   bottom: -16px;
   width: 100px;
   height: 1px;
-  background-color: #fe5c24;
+  background-color: #f89436;
 }
 
 @media (max-width: 576px) {
@@ -476,7 +497,8 @@ ul {
 }
 
 /* line 25, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_button.scss */
-.btn_1, .btn_2 {
+.btn_1,
+.btn_2 {
   display: inline-block;
   padding: 18px 60px;
   border-radius: 50px;
@@ -486,20 +508,22 @@ ul {
   margin-top: 45px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background-color: #fe5c24;
+  background-color: #f89436;
   font-weight: 500;
   letter-spacing: 1px;
 }
 
 /* line 37, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_button.scss */
-.btn_1:hover, .btn_2:hover {
-  color: #fe5c24;
+.btn_1:hover,
+.btn_2:hover {
+  color: #f89436;
   background-color: #fff;
 }
 
 @media (max-width: 576px) {
   /* line 25, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_button.scss */
-  .btn_1, .btn_2 {
+  .btn_1,
+  .btn_2 {
     padding: 14px 30px;
     margin-top: 25px;
   }
@@ -507,7 +531,8 @@ ul {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 25, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_button.scss */
-  .btn_1, .btn_2 {
+  .btn_1,
+  .btn_2 {
     padding: 14px 30px;
     margin-top: 30px;
   }
@@ -515,7 +540,8 @@ ul {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 25, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_button.scss */
-  .btn_1, .btn_2 {
+  .btn_1,
+  .btn_2 {
     padding: 14px 30px;
     margin-top: 30px;
   }
@@ -528,7 +554,7 @@ ul {
 
 /* line 60, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_button.scss */
 .btn_2:hover {
-  background-color: #fe5c24;
+  background-color: #f89436;
   color: #fff;
 }
 
@@ -580,8 +606,8 @@ ul {
   color: #2f373d;
   display: inline-block;
   z-index: 9;
-  -webkit-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
   line-height: 46px;
   padding-left: 30px;
   margin-top: 35px;
@@ -599,8 +625,8 @@ ul {
   left: 0px;
   border-radius: 5px;
   z-index: -1;
-  -webkit-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 /* line 119, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_button.scss */
@@ -621,7 +647,7 @@ ul {
   color: #fff;
   border: 1px solid #fdcb9e;
   text-transform: uppercase;
-  background-color: #fe5c24;
+  background-color: #f89436;
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -637,7 +663,7 @@ ul {
 
 /* line 145, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_button.scss */
 .button:hover {
-  color: #fe5c24 !important;
+  color: #f89436 !important;
 }
 
 /* line 150, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_button.scss */
@@ -691,7 +717,8 @@ ul {
 }
 
 /* line 14, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
-.blog_area a:hover, .blog_area a :hover {
+.blog_area a:hover,
+.blog_area a :hover {
   background: -webkit-linear-gradient(131deg, #feb47b 0%, #ff7e5f 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -719,7 +746,7 @@ ul {
 
 /* line 36, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
 .single-blog .thumb:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -766,7 +793,7 @@ ul {
 
 /* line 84, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
 .single-blog .tag:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 1px;
   height: 10px;
@@ -825,7 +852,7 @@ ul {
 
 /* line 135, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
 .single-blog:hover .thumb:after {
-  opacity: .7;
+  opacity: 0.7;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -1179,8 +1206,8 @@ ul {
 }
 
 .blog_right_sidebar {
-    position: sticky;
-    top: 90px;
+  position: sticky;
+  top: 90px;
 }
 
 /* line 529, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
@@ -1192,13 +1219,13 @@ ul {
 @media (min-width: 768px) {
   /* line 529, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
   .blog_details {
-    padding: 60px 30px 35px 35px;
+    padding: 30px 30px 30px 30px;
   }
 }
 
 /* line 537, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
 .blog_details p {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 /* line 541, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
@@ -1208,7 +1235,7 @@ ul {
 
 /* line 544, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
 .blog_details a:hover {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 549, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
@@ -1276,7 +1303,7 @@ ul {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #fe5c24;
+  background-color: #f89436;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -1284,15 +1311,15 @@ ul {
 @media (min-width: 768px) {
   /* line 599, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
   .blog_item_img .blog_item_date {
-    bottom: -20px;
-    left: 40px;
-    padding: 13px 30px;
+        bottom: 15px;
+    left: 95px;
+    padding: 5px 12px;
   }
 }
 
 /* line 615, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
 .blog_item_img .blog_item_date h3 {
-  font-size: 22px;
+  font-size: 15px;
   font-weight: 600;
   color: #fff;
   margin-bottom: 0;
@@ -1302,7 +1329,7 @@ ul {
 @media (min-width: 768px) {
   /* line 615, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
   .blog_item_img .blog_item_date h3 {
-    font-size: 30px;
+    font-size: 15px;
   }
 }
 
@@ -1339,6 +1366,7 @@ ul {
   background: #fbf9ff;
   padding: 30px;
   margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 /* line 664, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
@@ -1504,7 +1532,7 @@ ul {
 
 /* line 842, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #fe5c24;
+  background: #f89436;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -1752,7 +1780,7 @@ ul {
 
 /* line 1208, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 1213, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
@@ -1816,7 +1844,7 @@ ul {
 
 /* line 1264, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
 .single-post-area .navigation-area .nav-left:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
@@ -1858,7 +1886,7 @@ ul {
 
 /* line 1299, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_blog.scss */
 .single-post-area .navigation-area .nav-right:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 991px) {
@@ -2091,7 +2119,7 @@ ul {
 
 /* line 18, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_single_blog.scss */
 .single_blog_post .single_blog .single_appartment_content p a {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 22, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_single_blog.scss */
@@ -2140,7 +2168,7 @@ ul {
 
 /* line 8, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_sub_menu.scss */
 .sub_menu .sub_menu_right_content i {
-  color: #fe5c24;
+  color: #f89436;
   margin-right: 13px;
 }
 
@@ -2180,7 +2208,7 @@ ul {
 
 /* line 31, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_sub_menu.scss */
 .sub_menu .sub_menu_social_icon a:hover {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /**************menu part start*****************/
@@ -2239,7 +2267,7 @@ ul {
 
 /* line 41, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link:hover {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2456,7 +2484,7 @@ ul {
 
 /* line 74, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_banner.scss */
 .banner_part .banner_text h5 span {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 78, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_banner.scss */
@@ -2508,7 +2536,7 @@ ul {
 
 /* line 106, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_banner.scss */
 .banner_part .banner_text h1 span {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 111, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_banner.scss */
@@ -2670,7 +2698,7 @@ ul {
 /* line 58, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_about.scss */
 .about_part .about_text h4 {
   margin-bottom: 31px;
-  color: #fe5c24;
+  color: #f89436;
   font-size: 20px;
   font-weight: 300;
 }
@@ -2841,7 +2869,7 @@ ul {
 /* line 33, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_service.scss */
 .service_part .single_service_part i {
   font-size: 42px;
-  color: #fe5c24;
+  color: #f89436;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -2902,7 +2930,7 @@ ul {
   content: "";
   left: -50px;
   top: 59px;
-  background-color: #fe5c24;
+  background-color: #f89436;
   width: 60px;
   height: 2px;
   -webkit-transition: 1s;
@@ -2925,7 +2953,7 @@ ul {
 
 /* line 86, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_service.scss */
 .service_part .single_service_part:hover {
-  background-color: #fe5c24;
+  background-color: #f89436;
 }
 
 /* line 88, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_service.scss */
@@ -3052,7 +3080,7 @@ ul {
   bottom: -16px;
   width: 50px;
   height: 1px;
-  background-color: #fe5c24;
+  background-color: #f89436;
 }
 
 @media (max-width: 576px) {
@@ -3097,7 +3125,7 @@ ul {
 .portfolio_part .card-columns .portfolio_btn {
   font-size: 16px;
   text-transform: uppercase;
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 112, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_portfolio.scss */
@@ -3154,7 +3182,7 @@ ul {
 
 /* line 153, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_portfolio.scss */
 .portfolio_part .card-columns .card .card-body:hover h5 {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 158, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_portfolio.scss */
@@ -3247,7 +3275,7 @@ ul {
   bottom: -16px;
   width: 50px;
   height: 1px;
-  background-color: #fe5c24;
+  background-color: #f89436;
 }
 
 /* line 28, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_our_industries.scss */
@@ -3259,7 +3287,7 @@ ul {
 
 /* line 31, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_our_industries.scss */
 .our_industries .single_industries h3 a:hover {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 36, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_our_industries.scss */
@@ -3444,7 +3472,7 @@ ul {
 
 /* line 109, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_faq_part.scss */
 .faq_part .faq_content .accordion-item h2:before {
-  font-family: 'themify';
+  font-family: "themify";
   position: absolute;
 }
 
@@ -3502,7 +3530,7 @@ ul {
   right: 0;
   top: calc(50% - 1px);
   border-radius: 50%;
-  background-color: #fe5c24;
+  background-color: #f89436;
   width: 28px;
   height: 28px;
   content: "\e622";
@@ -3594,7 +3622,10 @@ ul {
 }
 
 /* line 40, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_gallery_part.scss */
-.gallery_part .single_gallery_item .single_gallery_item_iner .gallery_item_text {
+.gallery_part
+  .single_gallery_item
+  .single_gallery_item_iner
+  .gallery_item_text {
   position: absolute;
   left: 20px;
   bottom: 80px;
@@ -3606,16 +3637,24 @@ ul {
 }
 
 /* line 48, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_gallery_part.scss */
-.gallery_part .single_gallery_item .single_gallery_item_iner .gallery_item_text h3 {
+.gallery_part
+  .single_gallery_item
+  .single_gallery_item_iner
+  .gallery_item_text
+  h3 {
   color: #fff;
   font-size: 20px;
-  border-bottom: 2px solid #fe5c24;
+  border-bottom: 2px solid #f89436;
   padding-bottom: 10px;
   margin-bottom: 5px;
 }
 
 /* line 55, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_gallery_part.scss */
-.gallery_part .single_gallery_item .single_gallery_item_iner .gallery_item_text p {
+.gallery_part
+  .single_gallery_item
+  .single_gallery_item_iner
+  .gallery_item_text
+  p {
   color: #fff;
 }
 
@@ -3634,7 +3673,7 @@ ul {
 
 /* line 74, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_gallery_part.scss */
 .gallery_part .grid:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -3846,8 +3885,8 @@ ul {
 
 /* line 72, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_Professional.scss */
 .our_Professional .single_industries_text:hover {
-  background-color: #fe5c24;
-  border: 1px solid #fe5c24;
+  background-color: #f89436;
+  border: 1px solid #f89436;
   border-top: 0px solid transparent;
 }
 
@@ -3986,7 +4025,7 @@ ul {
 
 /* line 10, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_post_style.scss */
 .post_2 a:hover {
-  color: #fe5c24 !important;
+  color: #f89436 !important;
 }
 
 /* line 13, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_post_style.scss */
@@ -4033,7 +4072,7 @@ ul {
 
 /* line 37, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_post_style.scss */
 .post_2 .post_text_1 h3:hover {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4046,7 +4085,7 @@ ul {
 /* line 53, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_post_style.scss */
 .post_2 .post_text_1 h5 {
   font-size: 13px;
-  color: #fe5c24;
+  color: #f89436;
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 14px;
@@ -4070,7 +4109,7 @@ ul {
 
 /* line 72, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_post_style.scss */
 .post_2 .post_text_1 h5:hover {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 76, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_post_style.scss */
@@ -4212,7 +4251,7 @@ ul {
   border-top-right-radius: 10px;
   padding: 15px 30px;
   background-color: #fff;
-  color: #fe5c24;
+  color: #f89436;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
@@ -4304,7 +4343,7 @@ ul {
   border-top-left-radius: 10px;
   padding: 15px 30px;
   background-color: #fff;
-  color: #fe5c24;
+  color: #f89436;
   text-transform: uppercase;
   font-size: 11px;
   font-weight: 600;
@@ -4391,7 +4430,7 @@ ul {
 /* line 5, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_subscribe_area.scss */
 .subscribe_area .subscribe_iner {
   padding: 33px 70px 51px;
-  background-color: #fe5c24;
+  background-color: #f89436;
   position: relative;
   z-index: 1;
 }
@@ -4589,7 +4628,7 @@ ul {
 /* line 129, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_subscribe_area.scss */
 .subscribe_area .subscribe_iner .btn_2:hover {
   background-color: #fff;
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 134, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_subscribe_area.scss */
@@ -4660,7 +4699,7 @@ input:focus {
 
 /* line 9, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_copyright_part.scss */
 .copyright_part a {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 @media (max-width: 576px) {
@@ -4815,7 +4854,8 @@ input:focus {
 }
 
 /* line 16, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_contact.scss */
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
@@ -4830,7 +4870,7 @@ input:focus {
 
 /* line 30, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_contact.scss */
 .contact-info .media-body h3 a:hover {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 36, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_contact.scss */
@@ -4960,7 +5000,7 @@ input:focus {
 
 /* line 146, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_contact.scss */
 .contact-section .btn_2:hover {
-  background-color: #fe5c24;
+  background-color: #f89436;
 }
 
 /**************** project_datails css start ****************/
@@ -5255,7 +5295,7 @@ input:focus {
 
 /* line 59, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_breadcrumb.scss */
 .breadcrumb .breadcrumb_iner .breadcrumb_iner_item p a {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 64, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_breadcrumb.scss */
@@ -5343,7 +5383,7 @@ input:focus {
 
 /* line 47, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_footer.scss */
 .footer-area .single-footer-widget ul li a:hover {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 53, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_footer.scss */
@@ -5372,7 +5412,7 @@ input:focus {
 
 /* line 71, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_footer.scss */
 .footer-area .single-footer-widget .click-btn {
-  background-color: #fe5c24;
+  background-color: #f89436;
   color: #fff;
   border-radius: 0;
   border-top-left-radius: 0px;
@@ -5450,7 +5490,7 @@ input:focus {
 
 /* line 123, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_footer.scss */
 .footer-area .social_icon a:hover {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 132, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_footer.scss */
@@ -5578,7 +5618,7 @@ input:focus {
 
 /* line 216, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_footer.scss */
 .footer-area .btn {
-  background-color: #fe5c24;
+  background-color: #f89436;
   color: #fff;
   width: 49px;
   border-radius: 0px;
@@ -5637,7 +5677,7 @@ input:focus {
 
 /* line 256, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_footer.scss */
 .footer-area .copyright_part_text a {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 260, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_footer.scss */
@@ -5724,7 +5764,7 @@ input:focus {
 
 /* line 314, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_footer.scss */
 .footer_menu ul li a:hover {
-  color: #fe5c24 !important;
+  color: #f89436 !important;
 }
 
 @media (max-width: 576px) {
@@ -5773,7 +5813,7 @@ sup,
 sub,
 u,
 del {
-  color: #fe5c24;
+  color: #f89436;
 }
 
 /* line 93, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
@@ -5807,7 +5847,12 @@ h6 {
 }
 
 /* line 117, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.2em;
 }
 
@@ -5849,7 +5894,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   line-height: 40px;
   padding: 0 30px;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   text-decoration: none;
   font-weight: 500;
@@ -5940,28 +5985,28 @@ h1, h2, h3, h4, h5, h6 {
 /* line 217, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .genric-btn.primary {
   color: #fff;
-  background: #fe5c24;
+  background: #f89436;
   border: 1px solid transparent;
 }
 
 /* line 221, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .genric-btn.primary:hover {
-  color: #fe5c24;
-  border: 1px solid #fe5c24;
+  color: #f89436;
+  border: 1px solid #f89436;
   background: #fff;
 }
 
 /* line 227, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .genric-btn.primary-border {
-  color: #fe5c24;
-  border: 1px solid #fe5c24;
+  color: #f89436;
+  border: 1px solid #f89436;
   background: #fff;
 }
 
 /* line 231, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #fe5c24;
+  background: #f89436;
   border: 1px solid transparent;
 }
 
@@ -6119,7 +6164,7 @@ h1, h2, h3, h4, h5, h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #fe5c24;
+  border-left: 2px solid #f89436;
 }
 
 /* line 353, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
@@ -6274,7 +6319,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #fe5c24;
+  border: 3px solid #f89436;
   background: #fff;
   top: 4px;
   left: 0;
@@ -6289,7 +6334,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 475, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #fe5c24;
+  color: #f89436;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -6304,7 +6349,7 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #fe5c24;
+  color: #f89436;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -6319,7 +6364,7 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #fe5c24;
+  color: #f89436;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -6402,7 +6447,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 568, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #fe5c24;
+  border: 1px solid #f89436;
 }
 
 /* line 574, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
@@ -6470,7 +6515,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #fe5c24;
+  background: #f89436;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -6561,7 +6606,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 696, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .primary-switch input:checked + label:before {
-  background: #fe5c24;
+  background: #f89436;
 }
 
 /* line 704, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
@@ -6682,7 +6727,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 798, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6724,7 +6770,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 835, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6772,7 +6819,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 876, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6814,7 +6862,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 913, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6856,7 +6905,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 950, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6904,7 +6954,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 991, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6948,13 +6999,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 1022, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .default-select .nice-select .list .option.selected {
-  color: #fe5c24;
+  color: #f89436;
   background: transparent;
 }
 
 /* line 1026, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .default-select .nice-select .list .option:hover {
-  color: #fe5c24;
+  color: #f89436;
   background: transparent;
 }
 
@@ -7011,13 +7062,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 1067, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .form-select .nice-select .list .option.selected {
-  color: #fe5c24;
+  color: #f89436;
   background: transparent;
 }
 
 /* line 1071, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_elements.scss */
 .form-select .nice-select .list .option:hover {
-  color: #fe5c24;
+  color: #f89436;
   background: transparent;
 }
 
@@ -7061,27 +7112,143 @@ h1, h2, h3, h4, h5, h6 {
 /*# sourceMappingURL=style.css.map */
 
 .popular_post_widget .footer_icon p {
-    margin-bottom: 22px;
-    font-size: 16px;
-    color: #999;
+  margin-bottom: 22px;
+  font-size: 16px;
+  color: #999;
 }
 
 .popular_post_widget .single-footer-widget p {
-    color: #777;
-    line-height: 1.2;
+  color: #777;
+  line-height: 1.2;
 }
 
 .popular_post_widget .footer_icon ul li {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .popular_post_widget .single-footer-widget ul li a {
-    color: #999;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    font-size: 15px;
+  color: #999;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 15px;
 }
 
 .popular_post_widget .footer_icon ul li i {
-    margin-right: 15px;
+  margin-right: 15px;
+}
+#scrollToTop {
+  display: inline-block;
+  background-color: #f89436;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#scrollToTop::before {
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#scrollToTop:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#scrollToTop:active {
+  background-color: #555;
+}
+#scrollToTop.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 500px) {
+  #scrollToTop {
+    margin: 30px;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.info-aside ul {
+  padding: 0 25px;
+  text-align: center;
+}
+
+.info-aside ul li{
+  display: inline-block;
+}
+
+.info-aside ul li a{
+  color: #fff !important;
+  margin: 5px;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #f89436;
+    border-color: #f89436;
+}
+
+/* .blog_details p a {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 10px;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: #f89436;
+    font-weight: 500;
+    letter-spacing: 1px;
+} */
+img.zoom {
+    width: 100%;
+    height: 225px;
+    border-radius:5px;
+    object-fit:cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    padding: 2rem 1rem;
+}
+        
+ 
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.fancybox-overlay {
+  z-index: 9999 !important;
+}
+
+.thumb {
+    text-align: center;
+}
+
+.thumb p{
+    margin-top: -20px;
+}
+
+header li.nav-item.active a {
+    background: #f9ab46;
+    color: #fff !important;
+}
+
+.address {
+  text-align: center;
+  font-size: 1.5rem;
 }
